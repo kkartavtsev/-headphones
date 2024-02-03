@@ -1,0 +1,46 @@
+
+
+.Product {
+    border-style: none;
+    background-color: rgb(255, 255, 255);
+    width: 290px;
+    height: 450px;
+    padding: 50px;
+    margin-left: 50px;
+    margin-bottom: 30px;
+}
+
+.Product img {
+    height: 200px;
+    margin-left: -7px;
+    margin-bottom: 10px;
+}
+
+.Product h1 {
+    color: black;
+    font-weight: normal;
+    font-size: 20pt;
+    margin-bottom: 10px;
+}
+
+.Product p {
+    color: black;
+    font-size: 14pt;
+    margin-bottom: 10px;
+}
+
+.Product .buy {
+    border-radius: 100px;
+    margin-left: -5px;
+    height: 50px;
+    width: 200px;
+    border-style: none;
+    background-color: #a8a8a8;
+    color: white;
+    font-size: 16pt;
+}
+
+.Product .buy:hover {
+    cursor: pointer;
+
+}

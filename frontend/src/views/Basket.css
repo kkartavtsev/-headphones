@@ -1,0 +1,49 @@
+.Basket {
+    width: 100%;
+    min-height: calc(100vh - 50px - 50px);
+    background-color: #ffffff;
+    padding-top: 30px;
+}
+
+
+.BasketContent {
+    margin-right: 100px;
+
+    padding: 30px;
+    row-gap: 30px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.Basket .order {
+    border-radius: 100px;
+    
+    height: 50px;
+    width: 200px;
+    border-style: none;
+    background-color: #868686;
+    color: rgb(255, 255, 255);
+    font-size: 16pt;
+}
+
+.Basket .order:hover {
+cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .BasketContent {
+        min-height: calc(100vh - 160px - 50px);
+        padding: 10px;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 426px) {
+    .BasketContent {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+p {
+    color: #000000;
+}
